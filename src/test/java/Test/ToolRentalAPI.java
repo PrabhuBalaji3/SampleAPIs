@@ -19,6 +19,9 @@ public class ToolRentalAPI extends BaseClass {
         baseUrl("https://simple-tool-rental-api.glitch.me");
 		given().log().all().when().get("Status").then().log().all().assertThat().statusCode(200);
 
+		
+		
+		
 	}
 
 	@Test
