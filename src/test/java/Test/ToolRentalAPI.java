@@ -3,12 +3,12 @@ package Test;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
+//import static org.hamcrest.Matchers.*;
 
-import io.restassured.RestAssured;
+//import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
-import io.restassured.response.ValidatableResponse;
+//import io.restassured.response.Response;
+//import io.restassured.response.ValidatableResponse;
 import files.BaseClass;
 
 public class ToolRentalAPI extends BaseClass {
@@ -19,8 +19,6 @@ public class ToolRentalAPI extends BaseClass {
         baseUrl("https://simple-tool-rental-api.glitch.me");
 		given().log().all().when().get("Status").then().log().all().assertThat().statusCode(200);
 
-		
-		
 		
 	}
 
