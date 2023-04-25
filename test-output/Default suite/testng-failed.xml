@@ -5,6 +5,7 @@
     <classes>
       <class name="Test.ToolRentalAPI">
         <methods>
+          <include name="registerNewUser"/>
           <include name="getResultsWithPathVariable"/>
           <include name="updateOrder"/>
         </methods>

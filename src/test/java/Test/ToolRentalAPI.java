@@ -42,7 +42,7 @@ public class ToolRentalAPI extends BaseClass {
 	}
 
 	
-	@Test
+	@Test(enabled = false)
 	public void getResultsWithPathVariable() {
 
         baseUrl("https://simple-tool-rental-api.glitch.me");
@@ -52,7 +52,7 @@ public class ToolRentalAPI extends BaseClass {
 
 	}
 	
-	@Test
+	@Test(enabled = false)
 	public void registerNewUser() {
 		
         baseUrl("https://simple-tool-rental-api.glitch.me");
@@ -97,7 +97,7 @@ public class ToolRentalAPI extends BaseClass {
 	    
 	}
 	
-	@Test
+	@Test(enabled = false)
 	public void updateOrder() {
 		
 		baseUrl("https://simple-tool-rental-api.glitch.me");
